@@ -16,4 +16,8 @@ greeting:
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
 
-management.endpoints.web.exposure.include=*
+management:
+  endpoints:
+    web:
+      exposure:
+        include= "*"
